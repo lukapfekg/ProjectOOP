@@ -18,5 +18,33 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Linija.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stajaliste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MrezaGradskogPrevoza.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Linija.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stajaliste.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MrezaGradskogPrevoza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="linije.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="stajalista.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

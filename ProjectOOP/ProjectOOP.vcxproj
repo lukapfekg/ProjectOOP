@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Linija.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MrezaGradskogPrevoza.cpp" />
+    <ClCompile Include="Stajaliste.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Linija.h" />
+    <ClInclude Include="MrezaGradskogPrevoza.h" />
+    <ClInclude Include="Stajaliste.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="linije.txt" />
+    <Text Include="stajalista.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
